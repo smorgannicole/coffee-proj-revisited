@@ -6,10 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coffee Project</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
-    
-    <script type="module" src="index.js"></script>
+<div class="page-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col dropdown d-flex justify-content-end">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Coffee Blends</a></li>
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <img class="hero-logo" src="images/hero-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>    
+<script type="module" src="index.js"></script>
 </body>
 </html>

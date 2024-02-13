@@ -1,1 +1,30 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css") layer(framework);
+
+:root {
+    --clr-eggshell: #E1DEBF;
+}
+
+body {
+    color: var(--clr-eggshell);
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("images/hero-background.jpeg") center fixed;
+    background-size: cover;
+}
+
+button {
+    color: inherit;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 110%;
+    width: 60%;
+}
